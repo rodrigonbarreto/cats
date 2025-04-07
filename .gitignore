@@ -1,0 +1,39 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+bin/
+lib/
+include/
+pyvenv.cfg
+.Python
+env/
+venv/
+ENV/
+
+*.db
+*.sqlite
+*.sqlite3
+
+.env
+.env.local
+
+# Logs
+*.log
+
+dist/
+build/
+*.egg-info/
+*.egg
+
+node_modules/
+
+.DS_Store
+Thumbs.db
+
+# Arquivos IDE
+.idea/
+.vscode/
+*.swp
+*.swo

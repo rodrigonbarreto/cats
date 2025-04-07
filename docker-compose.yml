@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  cats_app:
+    build: .
+    container_name: cats_app
+    ports:
+      - "8181:8181"
+    volumes:
+      - .:/app
+    environment:
+      - CAT_API_URL=https://api.thecatapi.com/v1/images/search
+    restart: unless-stopped
