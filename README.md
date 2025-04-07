@@ -1,7 +1,8 @@
 # Adote um gato
-## É um projeto de exemplo DE POS GRADUACAO DA PUC-RJ
+## # Aplicação Frontend de Adoção de Gatos e Cães  - PUC-RJ - pós-graduação
 
 Esta aplicação usa a API pública [TheCatAPI](https://api.thecatapi.com) para buscar informações sobre gatos.
+Esta aplicação usa a API pública [TheDogAPI](https://api.thedogapi.com) para buscar informações sobre cães.
 
 ## Tecnologias utilizadas
 
@@ -107,6 +108,11 @@ python create_tables.py
 A aplicação consome a API pública do TheCatAPI:
 
 URL base: `https://api.thecatapi.com/v1/images/search?limit=10`
+
+## Fluxograma
+![Diagrama de Arquitetura](./fluograma.png)
+
+
 
 ## Verificação da versão do Python
 

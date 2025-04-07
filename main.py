@@ -9,7 +9,7 @@ from api.v1.api import api_router
 
 
 app = FastAPI(
-    title="Cats API", description="API para gerenciamento de gatos", version="0.1.0"
+    title="Pets API", description="API para gerenciamento de gatos", version="0.1.0"
 )
 
 app.add_middleware(
@@ -25,7 +25,7 @@ app.include_router(api_router, prefix=settings.API_V1_STR)
 
 @app.get("/")
 async def root():
-    return {"message": "Cats API - Acesse /docs para a documentação"}
+    return {"message": "Live!"}
 
 
 if __name__ == "__main__":
